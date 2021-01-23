@@ -2,16 +2,16 @@
 
 ## Ziel
 
-Das Ziel von Blatt 1 ist die folgeden Fragen zu beantwroten.
+Das Ziel von Blatt 1 ist die folgeden Fragen zu beantworten.
 
-1. Wie redent man ueber Python mit dem Minecraft-Server?
+1. Wie redet man ueber Python mit dem Minecraft-Server?
 1. Wie laesst man ein Python-Programm laufen (was ist ein Programm)?
-1. Wie ruft man eine Funtion auf? (Was sind Funktionen, Parameter, Rueckgabewerte - Beispiele dafuer)?
+1. Wie ruft man eine Funktion auf? (Was sind Funktionen, Parameter, Rueckgabewerte - Beispiele dafuer)?
 1. Was sind Variablen (Zuweisung von Werten - Beispiele)?
 
 ## Setup
 
-Das setup ist [hier](https://github.com/mncrft/homecraft.doc) beschrieben.
+Das Setup ist [hier](https://github.com/mncrft/homecraft.doc) beschrieben.
 
 ## Aufgabe 1.1
 
@@ -30,14 +30,13 @@ mc = Minecraft.create(address='192.168.178.45', port=4711)
 mc.postToChat("Hallo World")
 ```
 
-### Task 1.1 - Interactive Python-Console
+### Task 1.1 - Interactive Python-Console und Hello World
 
 #### 1.1.a - Python-Console oeffnen
 Rufe auf der shell auf: `idle`. (*`idle3`*)
 
 #### 1.1.b - Mit dem Server reden
-Tippe jede Zeile in `idle` ein.
-Beschreib was passiert.
+Tippe jede Zeile in `idle` ein. Beschreibe was passiert.
 
 #### 1.1.c - Chat
 Aendere die Chat-Nachricht.
@@ -105,8 +104,6 @@ Jetzt spiel mit den Werten rum.
 ```python
 exit()
 ```
-
-### 1.3 Play time
 
 ## Naechstes mal
 
