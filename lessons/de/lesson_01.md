@@ -72,7 +72,7 @@ print(r + 90)
 mc.player.setRotation(r+180)
 ```
 
-#### 1.2.d Koordinaten
+#### 1.2.e Koordinaten
 
 ```python
 x, y, z = mc.player.getPos()
@@ -100,6 +100,11 @@ mc.setBlocks(x+1, y+2, z+1, x+10, y+10, z+1, 7)
 
 Jetzt spiel mit den Werten rum.
 
+#### 1.2.h Blocks
+
+```python
+exit()
+```
 
 ### 1.3 Play time
 

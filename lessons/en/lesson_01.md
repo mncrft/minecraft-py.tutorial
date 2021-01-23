@@ -103,6 +103,11 @@ mc.setBlocks(x+1, y+2, z+1, x+10, y+10, z+1, 7)
 
 Now playaround with difft other values for the last parameter.
 
+#### 1.2.h Blocks
+
+```python
+exit()
+```
 
 ### 1.3 Play time
 
