@@ -71,10 +71,10 @@ print(r + 90)
 #### 1.2.d Use variables
 
 ```python
-mc.player.getRotation(r+180)
+mc.player.setRotation(r+180)
 ```
 
-#### 1.2.d Coordinates
+#### 1.2.e Coordinates
 
 ```python
 x, y, z = mc.player.getPos()
@@ -97,6 +97,8 @@ How can you drop the player from 10 blocks higher?
 ```python
 mc.setBlock(x, y, z + 1, 10)
 mc.setBlock(x, y, z + 1, 20)
+
+mc.setBlocks(x+1, y+2, z+1, x+10, y+10, z+1, 7)
 ```
 
 Now playaround with difft other values for the last parameter.
