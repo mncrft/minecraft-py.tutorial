@@ -8,3 +8,4 @@ The setup is described in [a separte document](https://github.com/mncrft/homecra
 
 # Aufgabenblaetter
 1. [Python mit Idle](https://github.com/mncrft/minecraft-py.tutorial/blob/main/lessons/de/lesson_01.md).
+1. [Programm und For-Schleife](https://github.com/mncrft/minecraft-py.tutorial/blob/main/lessons/de/lesson_02.md).
