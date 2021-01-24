@@ -30,7 +30,11 @@ mc = Minecraft.create(address='192.168.178.45', port=4711)
 mc.postToChat("Hallo World")
 ```
 
+<<<<<<< HEAD
 ### Task 1.1 - Interactive Python-Console und Hello World
+=======
+### Aufgabe 1.1 - Interactive Python-Console
+>>>>>>> bfc4cbc (Typo)
 
 #### 1.1.a - Python-Console oeffnen
 Rufe auf der shell auf: `idle`. (*`idle3`*)
@@ -41,7 +45,7 @@ Tippe jede Zeile in `idle` ein. Beschreibe was passiert.
 #### 1.1.c - Chat
 Aendere die Chat-Nachricht.
 
-### Task 1.2 - Variablen, Functionsaufrufe und print
+### Aufgabe 1.2 - Variablen, Functionsaufrufe und print
 
 Probiere jetzt die folgenden Befehle aus und beschreibe was passiert.
 
