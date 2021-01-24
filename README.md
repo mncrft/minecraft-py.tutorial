@@ -7,4 +7,4 @@ The setup is described in [a separte document](https://github.com/mncrft/homecra
 1. [Running Python with Idle](https://github.com/mncrft/minecraft-py.tutorial/blob/main/lessons/en/lesson_01.md).
 
 # Aufgabenblaetter
-1. [Running Python with Idle](https://github.com/mncrft/minecraft-py.tutorial/blob/main/lessons/de/lesson_01.md).
+1. [Python mit Idle](https://github.com/mncrft/minecraft-py.tutorial/blob/main/lessons/de/lesson_01.md).
