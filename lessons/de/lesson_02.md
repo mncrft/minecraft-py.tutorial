@@ -1,22 +1,22 @@
 # Blatt 2
 
 ## Ziel
-Das Ziel von Blatt 2 ist die folgeden Fragen zu beantwroten.
+Das Ziel von Blatt 2 ist die folgeden Fragen zu beantworten.
 
 1. Wie lege ich eine Python-Programmdatei an?
 1. Wie fuehre ich ein Python-Programm aus?
 1. Wofuer ist eine for-Schleife gut? (Beispiel)
 
 ## Wiederholung
-1. Was ist eine Fuktion?
-1. Was ist ein Parameter einer Funktion?
-1. Was sind strings?
+1. Was ist eine *Fuktion*?
+1. Was ist ein *Parameter* einer *Funktion*?
+1. Was sind *Strings*?
 
 
 ## Aufgabe 2.1 - Python ohne idle
 
 Oeffne eine neue Datei `aufgabe2.py` mit dem Text editor
-und tippe das folgende Beispiel-programm ab.
+und tippe das folgende Beispielprogramm ab.
 
 ```python
 # Hello world
@@ -31,7 +31,7 @@ Fuehre das Program auf der Konsole aus mit: `python hello.py`.
 Was ist anders als mit `idle`?
 
 ### 2.1.c
-Veraendere das Program und gib einen anderen Text aus.
+Veraendere das Programm und gib einen anderen Text aus.
 
 ### 2.1.c
 Kopiere das hello-world-Programm aus Blatt 1 in eine Datei `hallo_server.py` und fuehre es aus.
