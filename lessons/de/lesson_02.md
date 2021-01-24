@@ -75,7 +75,7 @@ print(list)
 
 ## Aufgabe 2.3 - Schleife mit Minecraft
 
-Lege eine neue Datei 'loop2.py` mit folgendem Inhalt an.
+Lege eine neue Datei `loop2.py` mit folgendem Inhalt an.
 
 ```python
 import sys
