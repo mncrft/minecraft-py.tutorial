@@ -93,8 +93,6 @@ Kannst du den Player 10 Blocks tief droppen?
 mc.setBlock(x, y, z + 1, 10)
 mc.setBlock(x, y, z + 1, 20)
 mc.setBlock(x, y, z + 1, 20)
-
-mc.setBlocks(x+1, y+2, z+1, x+10, y+10, z+1, 7)
 ```
 
 Jetzt spiel mit den Werten rum.
