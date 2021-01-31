@@ -21,9 +21,6 @@ Look at the folowing hello-world program below.
 ```python
 # Hello world
 
-import sys
-sys.path.append('/Users/jsaito/projects/minecraft/py')
-
 from mcpi.minecraft import Minecraft
 
 mc = Minecraft.create(address='192.168.178.45', port=4711)
