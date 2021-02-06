@@ -66,10 +66,10 @@ Jetzt aendere die Liste und fuehre aus.
 
 ```python
 list = range(10)
-for i in list:
-  print(name)
-
 print(list)
+
+for i in list:
+  print(i)
 ```
 
 
@@ -93,8 +93,8 @@ Aendere die Parameter fuer `postToChat` in der liste `list`.
 
 
 ### Aufgabe 2.3.b (*schwierig*)
-Aendere das Programm, damit es eine line von Blocken in der Naehe von `mc.player` baut.
-Benutze dazu teile aus [Aufgabe 1.2.g](./lesson_01.md#12g-blocks).
+Aendere das Programm, damit es einen 10 Bloecke hohen Turm in der Naehe von `mc.player` baut.
+Benutze dazu Teile aus [Aufgabe 1.2.g](./lesson_01.md#12g-blocks).
 
 
 ## Next
