@@ -10,7 +10,7 @@ Das Ziel von Blatt 4 ist die folgeden Fragen zu beantworten.
 
 ## Aufgabe 2.1 - Funktionen selbst definieren
 
-Lege eine neue Python-Datei `function.py` an.
+Lege eine neue Python-Datei `stars.py` an.
 Oeffne die Datei und tippe das folgende Programm ab.
 Speichere die Datei und fuehre das Programm aus.
 
@@ -114,12 +114,53 @@ Fuehre das neue Programm aus und erklaere.
 Benutze `add_many_stars()` um in den Minecraft Chat eine Nachricht mit vielen Sternen zu schreiben.
 
 
-## 2.3
+## 2.3 Haus
+
+```
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create(address='erebor.saito.berlin', port=4711)
+
+def walls(h, b, t):
+  blocks = []
+
+  for x in range(b):
+    for y in range(h):
+      for z in range(t):
+        if x == 0 or y == 0 or z == 0 or x == b - 1 or y == h - 1 or z == t-1 :
+          blocks.append([x, y, z])
+
+  return blocks
+
+def build(blocks):
+  x, y, z = mc.player.getPos()
+  for b in blocks: mc.setBlock(b[0] + x + 10, b[1] + y, b[2] + z, 47)
+
+blocks = walls(8, 5, 20)
+build(blocks)
+```
+
+## 2.3.a Verstehen
+
+Versuche die Funktionen `walls` und `build` zu verstehen.
+Was sind die parameter, was sind die Rueckgabewerte, was sind die Nebeneffekte?
+Was macht das Programm?
+
+Lasse danach das Programm laufen und vergleiche was du vorher gesagt hast.
+
+## 2.3.b Fenster
+
+Schreibe das Programm so um, dass es eine Tuer und ein Fenster einbaut.
+
+## 2.3.c Hochaus
+
+Schreibe das Programm so um, dass es einen zehnstoeckigen Turm baut.
+
+## 2.4 Bonusaufgabe.
 
 ```python
 def range_for(centre, size):
   return range(centre - size, centre + size + 1)
-        
+
 def area(x, y, z, size, block_type):
   blocks = []
   for i in range_for(x, size):
@@ -136,6 +177,6 @@ def pyramid(x, y, z, hight, block_type):
 print(area(10, 0, 100, 3, 42))
 ```
 
-## 2.3.a
+## 2.4.a
 
 Benutze die Funktion, um eine Pyramiden zu bauen.
