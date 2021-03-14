@@ -157,7 +157,7 @@ Schreibe das Programm so um, dass es einen zehnstoeckigen Turm baut.
 
 ## 2.4 Bonusaufgabe.
 
-```python
+```py
 def range_for(centre, size):
   return range(centre - size, centre + size + 1)
 
