@@ -116,24 +116,30 @@ Benutze `add_many_stars()` um in den Minecraft Chat eine Nachricht mit vielen St
 
 ## 2.3 Haus
 
-```
+```python
 from mcpi.minecraft import Minecraft
+
 mc = Minecraft.create(address='erebor.saito.berlin', port=4711)
 
+
 def walls(h, b, t):
-  blocks = []
+    blocks = []
 
-  for x in range(b):
-    for y in range(h):
-      for z in range(t):
-        if x == 0 or y == 0 or z == 0 or x == b - 1 or y == h - 1 or z == t-1 :
-          blocks.append([x, y, z])
+    for x in range(b):
+        for y in range(h):
+            for z in range(t):
+                if x == 0 or y == 0 or z == 0 or x == b - 1 or y == h \
+                    - 1 or z == t - 1:
+                    blocks.append([x, y, z])
 
-  return blocks
+    return blocks
+
 
 def build(blocks):
-  x, y, z = mc.player.getPos()
-  for b in blocks: mc.setBlock(b[0] + x + 10, b[1] + y, b[2] + z, 47)
+    (x, y, z) = mc.player.getPos()
+    for b in blocks:
+        mc.setBlock(b[0] + x + 10, b[1] + y, b[2] + z, 47)
+
 
 blocks = walls(8, 5, 20)
 build(blocks)
